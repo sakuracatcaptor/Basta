@@ -1,16 +1,17 @@
 <template>
   <div id="app">
-     <MyTimer />
+     <TimerVersion2 />
   </div>
 </template>
 
 <script>
-import MyTimer from "./components/my-timer.vue";
+// import MyTimer from "./components/my-timer.vue";
+import TimerVersion2 from "./components/timer-version-2.vue"
 
 export default {
   name: 'App',
   components: {
-    MyTimer,
+    TimerVersion2
   },
 };
 </script>
